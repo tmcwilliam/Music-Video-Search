@@ -1,0 +1,1 @@
+Using YQL and the hipster 'Observer JS Patter' to expand my web dev skillz.

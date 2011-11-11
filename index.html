@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pub Sub Demo</title>
+  <link rel='stylesheet' type='text/css' href='css/styles.css' />
+</head>
+<body>
+  <section class="yahoo_music_search">
+    <form id="searchForm">
+      <h1>Search Music Videos</h1>
+      <input type="text" class="search_field" name="query" placeholder="What video do you want to watch?" autocomplete="off"/>
+      <input type="submit" value="Find" class="button blue_button" />
+    </form>
+  
+    <ul id="video_results"></ul>
+  </section>
+  
+  <!-- Plugins -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script src="js/plugin/pubsub.js"></script>
+  <script src="js/plugin/jquery.simplemodal.1.4.1.min.js"></script>
+  
+  <!-- Local files -->
+  <script src="js/music.js"></script>
+  <script src="js/pubsub-demo.js"></script>
+</body>
+</html>
